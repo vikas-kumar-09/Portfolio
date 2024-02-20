@@ -61,24 +61,46 @@ a.active, a:hover{
 
     height: 400px;
     /* width: 100px; */
-    background-color: #6f7bf7;
+    background-color: black;
     /* position: relative; */
 }
 
 #HI {
     position: relative;
-    padding-top: 80px;
+    padding-top: 90px;
     padding-left: 100px;
-    font-size: 30px;
+    font-size: 34px;
     color: white;
     font-weight: bold;
 }
 
 #name {
     position: relative;
-    padding-top: 18px;
+    padding-top: 17px;
     padding-left: 100px;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     color: white;
 }
+
+#skill{
+    position: relative;
+    padding-top: 26px;
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.circle{
+    float: right;
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 260px;
+    top: 130px;
+    border-radius: 50%;
+    border: 5px solid;
+    /* box-shadow:  50px yellow; */
+}
+
