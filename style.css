@@ -53,13 +53,13 @@ a.active, a:hover{
     border-bottom: 2px solid blue;
     
 }
-/* body{
-    font-family: monospace;
-} */
-
+body{
+    /* font-family: monospace; */
+    /* display: flex; */
+}
 .panel1{
-
-    height: 400px;
+    /* display: flex; */
+    height: 580px;
     /* width: 100px; */
     background-color: black;
     /* position: relative; */
@@ -67,7 +67,7 @@ a.active, a:hover{
 
 #HI {
     position: relative;
-    padding-top: 90px;
+    padding-top: 100px;
     padding-left: 100px;
     font-size: 34px;
     color: white;
@@ -83,24 +83,43 @@ a.active, a:hover{
     color: white;
 }
 
-#skill{
+.skill{
     position: relative;
-    padding-top: 26px;
+    padding-top: 20px;
     padding-left: 100px;
     color: white;
     font-size: 20px;
+}
+.button{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: black;
+    font-size: 18px;
 }
 
 .circle{
     float: right;
     background-color: yellow;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     position: absolute;
     right: 260px;
     top: 130px;
     border-radius: 50%;
     border: 5px solid;
-    /* box-shadow:  50px yellow; */
+ /* box-shadow:  50px yellow; */
+    background-image: url(Image/lion.webp);
+    background-size: cover;
+}
+
+.panel2{
+    height: 640px;
+    background-color: green;
+}
+.aboutme{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
 }
 
