@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
  }
 
  body{
@@ -12,8 +13,8 @@
  #header{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/images/background.png);
-    background-size: cover;
+    background-image: url(assets/images/background.png); 
+    background-size: cover; 
     background-position: center;
  }
 
@@ -22,13 +23,83 @@
  }
 
  nav {
+   margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    /* background-color: pink; */
+ }
+ nav h1 {
+   font-size: 35px;
+ }
+ nav h1 span {
+   color: red;
+   font-size: 35px;
  }
 
- .logo {
+ /* .logo {
     width: 140px;
+ } */
+
+ nav ul li {
+   display: inline-block;
+   list-style: none;
+   /* background-color: rebeccapurple; */
+   margin: 10px 14px;
  }
+
+ nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   position: relative;
+   
+ }
+
+ /* nav ul li a:hover{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   position: relative;
+   /* font-size: 22px; */
+ 
+
+
+  nav ul li a::after{
+       content: '';
+       width: 0%;
+       height: 3px;
+       background: blue;
+       position: absolute;
+       left: 0px;
+       bottom: -6px;
+       transition: 0.5s;
+ }
+
+ nav ul li a:hover::after{
+   width: 100%;
+ }
+
+ .header_text{
+   margin-top: 20%;
+   font-size: 25px;
+ }
+ .header_text h1 {
+   font-size: 60px;
+   margin-top: 20px;
+ }
+
+ .header_text h1 span{
+   color: red;
+ }
+
+ /* About section starts here  */
+
+ #about{
+   width: 100%;
+   height: 100vh;
+   background-color: blue;
+ }
+
  
